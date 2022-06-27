@@ -20,7 +20,6 @@ const Banner = ({purpose, title1, title2, desc1, desc2, buttonText, linkName, im
 )
 
 export default function Home({propertyForRent, propertyForSale}) {
-  console.log(propertyForRent, propertyForSale)
   return (
     <Box>
       <Banner purpose='RENT A HOME' title1='Rental Homes for' title2='Everyone' desc1='Explore Apartments, Villas, Homes'
